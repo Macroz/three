@@ -13,7 +13,7 @@ function init() {
   const container = document.getElementById('three');
 
   camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.25, 20);
-  camera.position.set(-1.8, 0.6, 2.7);
+  camera.position.set(-4.4, 1.4, 5.7);
 
   scene = new THREE.Scene();
 
